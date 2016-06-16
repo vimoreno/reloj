@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+body {
+
+    background-color: black;
+
+}
+
+.wrap{
+    background-image: url(../img/world.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    color: black;
+    text-shadow: 2px 2px 2px #fff;
+    padding-top: 33%;
+    margin-top: 7%;
+}
+.widget{
+    width: 25%;   
+    
+}
+.widget p{
+    display: inline-block;
+    line-height: 1em;
+}
+.fecha{
+    font-family: Oswald, Arial;
+    text-align: center;
+    font-size: 1.5em;
+    color:rgba(0, 119, 255, 0.86);
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 0.3125rem;
+    /*margin-bottom: 5px;*/
+    padding: 5px;
+    width: 100%;
+}
+.reloj{
+  font-family: Oswald, Arial;
+  text-align: center;
+  font-size: 4em;
+  /*padding: 20px;*/
+  width: 100%;
+}
+.reloj .caja-segundos{
+  display: inline-block;
+}
+.reloj .segundos, .reloj .ampm{
+  font-size: 4rem; /*Es la mitad*/
+  display: block;
+}
+
+
+form {
+
+  color: white;
+}
+
+
+
+@media screen and (max-width: 400px){
+
+
+  .widget {
+
+    width: 50%;
+  }
+}
